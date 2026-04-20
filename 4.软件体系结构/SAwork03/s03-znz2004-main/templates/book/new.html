@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}新增书籍{% endblock %}
+
+{% block content %}
+<div class="card">
+    <h2>➕ 新增书籍</h2>
+    
+    <form method="POST" action="/books">
+        <div class="form-group">
+            <label for="title">书名 *</label>
+            <input type="text" id="title" name="title" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="author">作者 *</label>
+            <input type="text" id="author" name="author" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="price">价格 *</label>
+            <input type="number" id="price" name="price" step="0.01" required>
+        </div>
+        
+        <button type="submit" class="btn">保存</button>
+        <a href="/books" class="btn" style="background: #95a5a6;">取消</a>
+    </form>
+</div>
+{% endblock %}

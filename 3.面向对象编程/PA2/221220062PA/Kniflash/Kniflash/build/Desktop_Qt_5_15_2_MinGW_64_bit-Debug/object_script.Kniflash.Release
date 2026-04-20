@@ -1,0 +1,16 @@
+release/gamescene.o
+release/gameview.o
+release/item.o
+release/main.o
+release/mainwindow.o
+release/player.o
+release/character.o
+release/enemy.o
+release/qrc_res.o
+release/moc_gamescene.o
+release/moc_gameview.o
+release/moc_item.o
+release/moc_mainwindow.o
+release/moc_player.o
+release/moc_character.o
+release/moc_enemy.o

@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}{{ book.title }}{% endblock %}
+
+{% block content %}
+<div class="card">
+    <h2>{{ book.title }}</h2>
+    <p><strong>作者：</strong> {{ book.author }}</p>
+    <p><strong>价格：</strong> ¥{{ "%.2f"|format(book.price) }}</p>
+    <p><strong>ID：</strong> {{ book.id }}</p>
+    
+    <div style="margin-top: 20px;">
+        <a href="/books" class="btn">返回列表</a>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block title %}书籍列表{% endblock %}
+
+{% block content %}
+<div class="card">
+    <h2>📖 书籍列表</h2>
+    <p>共 {{ books|length }} 本书</p>
+</div>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>书名</th>
+            <th>作者</th>
+            <th>价格</th>
+            <th>操作</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for book in books %}
+        <tr>
+            <td>{{ book.id }}</td>
+            <td><a href="/books/{{ book.id }}">{{ book.title }}</a></td>
+            <td>{{ book.author }}</td>
+            <td>¥{{ "%.2f"|format(book.price) }}</td>
+            <td>
+                <form action="/books/{{ book.id }}/delete" method="POST" style="display:inline;">
+                    <button type="submit" class="btn btn-danger" onclick="return confirm('确定删除？')">删除</button>
+                </form>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

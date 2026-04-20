@@ -1,0 +1,5 @@
+components:
+  - class: order_system.OrderService
+    properties: {}
+  - class: order_system.ReportService
+    properties: {}

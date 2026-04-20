@@ -1,0 +1,27 @@
+layers:
+  - presentation
+  - business
+  - data
+
+components:
+  - class: data.json_repo.JsonProductRepository
+    layer: data
+    properties:
+      data_file: result/products.json
+  - class: data.json_repo.JsonTransactionRepository
+    layer: data
+    properties:
+      data_file: result/transactions.json
+  - class: pos_system.CartService
+    layer: business
+  - class: pos_system.PaymentService
+    layer: business
+  - class: pos_system.ReceiptService
+    layer: business
+  - class: pos_system.ReportService
+    layer: business
+    lazy: true
+  - class: pos_system.RefundService
+    layer: business
+  - class: pos_system.POSCommands
+    layer: presentation

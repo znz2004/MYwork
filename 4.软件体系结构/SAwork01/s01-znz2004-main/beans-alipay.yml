@@ -1,0 +1,12 @@
+components:
+  - class: order_system.AlipayProcessor
+    properties: {}
+  - class: order_system.NotificationService
+    properties: {}
+  - class: order_system.OrderLogger
+    properties: {}
+  - class: order_system.DBConnection
+    properties: {}
+    lazy: true
+  - class: order_system.OrderService
+    properties: {}

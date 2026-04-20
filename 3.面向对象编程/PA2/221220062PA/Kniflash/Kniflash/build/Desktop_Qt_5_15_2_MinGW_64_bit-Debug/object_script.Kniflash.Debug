@@ -1,0 +1,16 @@
+debug/gamescene.o
+debug/gameview.o
+debug/item.o
+debug/main.o
+debug/mainwindow.o
+debug/player.o
+debug/character.o
+debug/enemy.o
+debug/qrc_res.o
+debug/moc_gamescene.o
+debug/moc_gameview.o
+debug/moc_item.o
+debug/moc_mainwindow.o
+debug/moc_player.o
+debug/moc_character.o
+debug/moc_enemy.o

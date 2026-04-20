@@ -1,0 +1,5 @@
+components:
+  - class: bookstore.services.BookService
+    properties:
+      data_file: bookstore/data/books.json
+  - class: bookstore.controllers.BookController

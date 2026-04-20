@@ -1,0 +1,10 @@
+train_rgb: D:/Homework/Graduation Project/FLIR/FLIR/train/rgb
+val_rgb: D:/Homework/Graduation Project/FLIR/FLIR/val/rgb
+train_ir: D:/Homework/Graduation Project/FLIR/FLIR/train/ir
+val_ir: D:/Homework/Graduation Project/FLIR/FLIR/val/ir
+
+# number of classes
+nc: 3
+
+# class names
+names: ['person','car','bicycle']

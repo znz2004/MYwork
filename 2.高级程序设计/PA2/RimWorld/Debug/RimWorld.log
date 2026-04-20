@@ -1,0 +1,19 @@
+﻿  main.cpp
+f:\student_system\rimworld\main.cpp(703): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+main.obj : error LNK2019: 无法解析的外部符号 _SDL_GetError，该符号在函数 _SDL_main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _SDL_CreateWindow，该符号在函数 _SDL_main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _SDL_DestroyWindow，该符号在函数 _SDL_main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _SDL_PollEvent，该符号在函数 _SDL_main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _SDL_CreateRenderer，该符号在函数 _SDL_main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _SDL_SetRenderDrawColor，该符号在函数 "void __cdecl renderCharacter(struct SDL_Renderer *,struct Character const &)" (?renderCharacter@@YAXPAUSDL_Renderer@@ABUCharacter@@@Z) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _SDL_RenderClear，该符号在函数 _SDL_main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _SDL_RenderFillRect，该符号在函数 "void __cdecl renderCharacter(struct SDL_Renderer *,struct Character const &)" (?renderCharacter@@YAXPAUSDL_Renderer@@ABUCharacter@@@Z) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _SDL_RenderPresent，该符号在函数 _SDL_main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _SDL_DestroyRenderer，该符号在函数 _SDL_main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _SDL_Delay，该符号在函数 _SDL_main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _SDL_Init，该符号在函数 _SDL_main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _SDL_Quit，该符号在函数 _SDL_main 中被引用
+LIBCMTD.lib(exe_main.obj) : error LNK2019: 无法解析的外部符号 _main，该符号在函数 "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 中被引用
+F:\student_system\RimWorld\sdl2\lib\x64\SDL2.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“X86”冲突
+F:\student_system\RimWorld\sdl2\lib\x64\SDL2main.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“X86”冲突
+F:\student_system\RimWorld\Debug\RimWorld.exe : fatal error LNK1120: 14 个无法解析的外部命令

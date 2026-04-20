@@ -1,0 +1,4 @@
+安装环境：pip install -r requirements.txt
+模型数据：python test.py --weights weights/weights/best.pt --data data.yaml --device cpu | tee results.txt
+测试样例：python detect.py --weights weights/weights/best.pt --source1 test/rgb --source2 test/ir --device cpu --view-img --save-txt
+合并图片：python merge_images.py

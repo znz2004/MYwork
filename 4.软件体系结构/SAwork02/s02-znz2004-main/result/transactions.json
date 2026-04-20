@@ -1,0 +1,23 @@
+[
+  {
+    "method": "cash",
+    "total": 5.5,
+    "items": [
+      {
+        "barcode": "6901234567890",
+        "name": "可口可乐",
+        "price": 3.5,
+        "quantity": 1
+      },
+      {
+        "barcode": "6901234567891",
+        "name": "农夫山泉",
+        "price": 2.0,
+        "quantity": 1
+      }
+    ],
+    "status": "completed",
+    "id": "txn_20260408_154700",
+    "timestamp": "2026-04-08T15:47:00.677343"
+  }
+]

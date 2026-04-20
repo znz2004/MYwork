@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}404 - 页面未找到{% endblock %}
+
+{% block content %}
+<div class="error">
+    <h1>404</h1>
+    <p>页面 "{{ path }}" 未找到</p>
+    <a href="/books" class="btn">返回首页</a>
+</div>
+{% endblock %}
